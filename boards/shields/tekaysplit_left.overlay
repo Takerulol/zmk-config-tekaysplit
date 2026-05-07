@@ -1,0 +1,7 @@
+#include "tekaysplit.dtsi"
+
+/ {
+    kscan0: kscan {
+        compatible: "zmk,kscan-gpio-matrix";
+    };
+};
