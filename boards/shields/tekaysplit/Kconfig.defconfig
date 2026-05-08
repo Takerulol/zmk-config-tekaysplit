@@ -1,7 +1,7 @@
 if SHIELD_TEKAYSPLIT_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "TekaySplit"
+    default "Tekay Split2"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y

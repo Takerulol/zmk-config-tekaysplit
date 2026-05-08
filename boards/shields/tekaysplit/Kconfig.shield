@@ -1,5 +1,5 @@
 config SHIELD_TEKAYSPLIT_RIGHT
-    def_bool $(shields_list_contains, tekaysplit_right)
+    def_bool $(shields_list_contains,tekaysplit_right)
 
 config SHIELD_TEKAYSPLIT_LEFT
-    def_bool $(shields_list_contains, tekaysplit_left)
+    def_bool $(shields_list_contains,tekaysplit_left)
