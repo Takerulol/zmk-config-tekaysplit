@@ -19,10 +19,10 @@
 #
 ---
 include :
-  - board: nice_nano_v2
+  - board: nrfmicro_13
     shield: tekaysplit_left
     snippet: zmk-usb-logging
-  - board: nice_nano_v2
+  - board: nrfmicro_13
     shield: tekaysplit_right
     snippet: zmk-usb-logging
 #  - board: nice_nano_v2
