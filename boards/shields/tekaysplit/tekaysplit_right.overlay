@@ -3,6 +3,9 @@
 / {
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
+    };
+
+    &default_transform {
         col-offset = <8>;
     };
 };
