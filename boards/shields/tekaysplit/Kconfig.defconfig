@@ -10,9 +10,6 @@ endif
 
 if SHIELD_TEKAYSPLIT_LEFT || SHIELD_TEKAYSPLIT_RIGHT
 
-config ZMK_BLE
-    default y
-
 config ZMK_SPLIT
     default y
 
