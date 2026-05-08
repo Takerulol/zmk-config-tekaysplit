@@ -8,7 +8,7 @@
         nordic,drive-mode = <NRF_DRIVE_S0D1>;
     };
 
-    i2c0_default: i2c0_sleep {
+    i2c0_sleep: i2c0_sleep {
         psels = <NRF_PSEL(TWIM_SCL, 0, 17)>,
                 <NRF_PSEL(TWIM_SDA, 0, 20)>;
         low-power-enable;
