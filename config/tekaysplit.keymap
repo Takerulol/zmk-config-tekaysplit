@@ -5,6 +5,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define BTLD bootloader
+#define SRST sys_reset
 
 / {
     sensors: sensors {
@@ -43,7 +44,7 @@
             bindings = <
                 &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4     &none                         &none     &none     &none     &none     &none     &none     &bt BT_CLR 
                 &bt BT_CLR_ALL     &none        &none        &none        &none        &none     &none     &BTLD     &BTLD     &none     &none     &none     &none     &none     &none     &none
-                &none     &none        &none        &none        &none        &none     &none     &reset    &none     &none     &reset    &none     &none     &none     &none     &none
+                &none     &none        &none        &none        &none        &none     &none     &SRST     &none     &none     &SRST     &none     &none     &none     &none     &none
                 &none     &none        &none        &none        &none        &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &none
                 &trans    &none        &none        &none        &none        &none     &none     &none     &none     &none     &none     &none     &none     &none     &none     &trans
             >;
