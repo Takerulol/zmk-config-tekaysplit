@@ -19,8 +19,9 @@
                 &kp CAPS  &kp Z     &kp X     &kp C     &kp V     &kp B     &kp LCTRL &kp HOME  &kp PG_UP &kp RCTRL &kp N     &kp M     &kp COMMA &kp DOT   &kp SLASH &kp RSHFT
                 &mo 1     &kp GRAVE &kp NUBS  &kp LEFT  &kp RIGHT &kp BSPC  &kp DEL   &kp END   &kp PG_DN &kp ENTER &kp SPACE &kp UP    &kp DOWN  &kp LBKT  &kp RBKT  &mo 1
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
-
+        
         tool_layer {
             display-name = "Tool";
             // bindings = <
