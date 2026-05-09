@@ -20,9 +20,9 @@
 ---
 include :
   - board: nrfmicro_13
-    shield: tekaysplit_left
+    shield: tekaysplit_left nice_oled
     snippet: zmk-usb-logging
-  - board: nrfmicro_13
+  - board: nrfmicro_13 nice_oled
     shield: tekaysplit_right
     snippet: zmk-usb-logging
 #  - board: nice_nano_v2
